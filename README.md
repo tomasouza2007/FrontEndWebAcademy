@@ -43,3 +43,7 @@ A demonstração de uso das ferramentas e tecnologias abordadas na capacitação
 - [Fluxo de Atendimento](https://github.com/webacademyufac/sgcmdocs#fluxo-de-atendimento)
 - [Diagrama de Classes](https://github.com/webacademyufac/sgcmdocs#diagrama-de-classes)
 - [Diagrama Entidade Relacionamento](https://github.com/webacademyufac/sgcmdocs#diagrama-entidade-relacionamento)
+
+### Conteúdo da Disciplina
+
+O [texto de referência](./docs/README.md) reúne os fundamentos teóricos e exemplos práticos da disciplina, abordando a introdução ao desenvolvimento web e as três tecnologias base do front-end: HTML, CSS e JavaScript.

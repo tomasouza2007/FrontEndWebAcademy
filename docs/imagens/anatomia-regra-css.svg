@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" width="496" height="320" font-family="Arial, Helvetica, sans-serif">
+  <!-- Fundo claro com borda e canto arredondado, para legibilidade em temas escuros -->
+  <rect x="10" y="10" width="600" height="380" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+
+  <!-- Cores: seletor/vermelho #d62728, corpo/laranja #ff7f0e, declaracao/azul #1f3fd6,
+       propriedade e valor/verde #3aa53a, texto valor/azul #1f4fe0 -->
+  <g transform="translate(-10,0)">
+
+  <!-- Corpo (caixa laranja externa com degrau no canto superior esquerdo) -->
+  <path d="M 120 115
+           L 585 115
+           L 585 365
+           L 55 365
+           L 55 176
+           L 120 176
+           Z" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+
+  <!-- Seletor (caixa vermelha) -->
+  <rect x="55" y="115" width="57" height="54" fill="none" stroke="#d62728" stroke-width="3"/>
+  <text x="86" y="150" fill="#d62728" font-size="34" font-family="'Courier New', monospace" text-anchor="middle">p</text>
+
+  <!-- Chave de abertura -->
+  <text x="122" y="153" fill="#000" font-size="34" font-family="'Courier New', monospace">{</text>
+
+  <!-- Chave de fechamento -->
+  <text x="70" y="345" fill="#000" font-size="34" font-family="'Courier New', monospace">}</text>
+
+  <!-- Declaracao (caixa azul interna) -->
+  <rect x="130" y="195" width="420" height="90" fill="none" stroke="#1f3fd6" stroke-width="3"/>
+
+  <!-- Propriedade (caixa verde) -->
+  <rect x="155" y="212" width="213" height="56" fill="none" stroke="#3aa53a" stroke-width="2.5"/>
+  <text x="163" y="252" fill="#d62728" font-size="34" font-family="'Courier New', monospace">text-align</text>
+
+  <!-- dois pontos -->
+  <text x="363" y="252" fill="#000" font-size="34" font-family="'Courier New', monospace">:</text>
+
+  <!-- Valor (caixa verde) -->
+  <rect x="393" y="212" width="133" height="56" fill="none" stroke="#3aa53a" stroke-width="2.5"/>
+  <text x="403" y="252" fill="#1f4fe0" font-size="34" font-family="'Courier New', monospace">center</text>
+
+  <!-- ponto e virgula -->
+  <text x="521" y="252" fill="#000" font-size="34" font-family="'Courier New', monospace">;</text>
+
+  <!-- ===== Rotulos e setas ===== -->
+
+  <!-- Seletor -->
+  <text x="86" y="55" fill="#d62728" font-size="22" font-weight="bold" text-anchor="middle">Seletor</text>
+  <line x1="86" y1="65" x2="86" y2="113" stroke="#d62728" stroke-width="3"/>
+  <polygon points="86,115 81,105 91,105" fill="#d62728"/>
+
+  <!-- Corpo -->
+  <text x="330" y="55" fill="#ff7f0e" font-size="22" font-weight="bold" text-anchor="middle">Corpo</text>
+  <line x1="330" y1="65" x2="330" y2="113" stroke="#ff7f0e" stroke-width="3"/>
+  <polygon points="330,115 325,105 335,105" fill="#ff7f0e"/>
+
+  <!-- Propriedade -->
+  <text x="242" y="152" fill="#3aa53a" font-size="22" font-weight="bold" text-anchor="middle">Propriedade</text>
+  <line x1="242" y1="162" x2="242" y2="210" stroke="#3aa53a" stroke-width="3"/>
+  <polygon points="242,212 237,202 247,202" fill="#3aa53a"/>
+
+  <!-- Valor -->
+  <text x="453" y="152" fill="#3aa53a" font-size="22" font-weight="bold" text-anchor="middle">Valor</text>
+  <line x1="453" y1="162" x2="453" y2="210" stroke="#3aa53a" stroke-width="3"/>
+  <polygon points="453,212 448,202 458,202" fill="#3aa53a"/>
+
+  <!-- Declaracao -->
+  <text x="340" y="355" fill="#1f3fd6" font-size="22" font-weight="bold" text-anchor="middle">Declaração</text>
+  <line x1="340" y1="335" x2="340" y2="287" stroke="#1f3fd6" stroke-width="3"/>
+  <polygon points="340,285 335,295 345,295" fill="#1f3fd6"/>
+  </g>
+</svg>

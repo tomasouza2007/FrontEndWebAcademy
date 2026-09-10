@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="530" height="250" font-family="&quot;SFMono-Regular&quot;, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace" role="img" aria-label="Estrutura aninhada de uma tabela HTML: o elemento table envolve vários tr indentados, e cada tr envolve vários td dispostos como uma grade de células.">
+  <style>
+    text { font-size: 14px; font-weight: 700; dominant-baseline: middle; }
+    .lbl { fill: #b45309; text-anchor: middle; }
+    .tr { fill: #047857; }
+    .tbl { fill: #1d4ed8; }
+  </style>
+
+  <!-- table (caixa externa) -->
+  <rect x="15" y="15" width="500" height="220" rx="6" fill="#eaf2fb" stroke="#2563eb" stroke-width="2.5"/>
+
+  <!-- <table> topo / </table> base -->
+  <text class="tbl" x="40" y="38">&lt;table&gt;</text>
+  <text class="tbl" x="40" y="212">&lt;/table&gt;</text>
+
+  <!-- <tr> indentado um nivel (x=80), centrado em cada linha do grid -->
+  <g class="tr">
+    <text x="75" y="72">&lt;tr&gt;</text>
+    <text x="75" y="106">&lt;tr&gt;</text>
+    <text x="75" y="140">&lt;tr&gt;</text>
+    <text x="75" y="174">&lt;tr&gt;</text>
+  </g>
+
+  <!-- grid de td (4x4) indentado mais um nivel, celulas de 80px, x[125..445], y[55..191] -->
+  <g fill="#fef6e7" stroke="#d97706" stroke-width="1.5">
+    <rect x="115" y="55" width="80" height="34"/>
+    <rect x="195" y="55" width="80" height="34"/>
+    <rect x="275" y="55" width="80" height="34"/>
+    <rect x="355" y="55" width="80" height="34"/>
+    <rect x="115" y="89" width="80" height="34"/>
+    <rect x="195" y="89" width="80" height="34"/>
+    <rect x="275" y="89" width="80" height="34"/>
+    <rect x="355" y="89" width="80" height="34"/>
+    <rect x="115" y="123" width="80" height="34"/>
+    <rect x="195" y="123" width="80" height="34"/>
+    <rect x="275" y="123" width="80" height="34"/>
+    <rect x="355" y="123" width="80" height="34"/>
+    <rect x="115" y="157" width="80" height="34"/>
+    <rect x="195" y="157" width="80" height="34"/>
+    <rect x="275" y="157" width="80" height="34"/>
+    <rect x="355" y="157" width="80" height="34"/>
+  </g>
+
+  <!-- rotulos td dentro das celulas (centros x: 165,245,325,405; centros y: 72,106,140,174) -->
+  <g class="lbl">
+    <text x="155" y="73">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="235" y="73">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="315" y="73">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="395" y="73">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="155" y="107">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="235" y="107">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="315" y="107">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="395" y="107">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="155" y="141">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="235" y="141">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="315" y="141">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="395" y="141">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="155" y="175">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="235" y="175">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="315" y="175">&lt;td&gt;&lt;/td&gt;</text>
+    <text x="395" y="175">&lt;td&gt;&lt;/td&gt;</text>
+  </g>
+
+  <!-- </tr> apos o grid (x=453) -->
+  <g class="tr">
+    <text x="443" y="72">&lt;/tr&gt;</text>
+    <text x="443" y="106">&lt;/tr&gt;</text>
+    <text x="443" y="140">&lt;/tr&gt;</text>
+    <text x="443" y="174">&lt;/tr&gt;</text>
+  </g>
+</svg>

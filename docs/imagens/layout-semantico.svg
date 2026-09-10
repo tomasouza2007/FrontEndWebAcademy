@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-label="Layout semântico de uma página HTML: header no topo, nav abaixo, main e aside lado a lado no centro, e footer na base.">
+  <style>
+    .box { stroke-width: 2; }
+    .label { text-anchor: middle; }
+    .desc { font-size: 15px; font-weight: 500; }
+    .tag { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 19px; font-weight: 700; }
+  </style>
+
+  <!-- header -->
+  <rect class="box" x="20" y="20" width="600" height="60" rx="6" fill="#c2cee7" stroke="#003097"/>
+  <text class="label" x="320" y="44">
+    <tspan class="desc" x="320" fill="#003097">Cabeçalho</tspan>
+    <tspan class="tag" x="320" dy="22" fill="#003097">&lt;header&gt;</tspan>
+  </text>
+
+  <!-- nav -->
+  <rect class="box" x="20" y="92" width="600" height="50" rx="6" fill="#eac8c8" stroke="#c00000"/>
+  <text class="label" x="320" y="110">
+    <tspan class="desc" x="320" fill="#c00000">Navegação</tspan>
+    <tspan class="tag" x="320" dy="22" fill="#c00000">&lt;nav&gt;</tspan>
+  </text>
+
+  <!-- main -->
+  <rect class="box" x="20" y="154" width="400" height="160" rx="6" fill="#e5edd9" stroke="#48671e"/>
+  <text class="label" x="220" y="222">
+    <tspan class="desc" x="220" fill="#48671e">Conteúdo Principal</tspan>
+    <tspan class="tag" x="220" dy="22" fill="#48671e">&lt;main&gt;</tspan>
+  </text>
+
+  <!-- aside -->
+  <rect class="box" x="432" y="154" width="188" height="160" rx="6" fill="#f5eefc" stroke="#7f4808"/>
+  <text class="label" x="526" y="222">
+    <tspan class="desc" x="526" fill="#7f4808">Barra Lateral</tspan>
+    <tspan class="tag" x="526" dy="22" fill="#7f4808">&lt;aside&gt;</tspan>
+  </text>
+
+  <!-- footer -->
+  <rect class="box" x="20" y="326" width="600" height="54" rx="6" fill="#ebebec" stroke="#56585a"/>
+  <text class="label" x="320" y="344">
+    <tspan class="desc" x="320" fill="#56585a">Rodapé</tspan>
+    <tspan class="tag" x="320" dy="22" fill="#56585a">&lt;footer&gt;</tspan>
+  </text>
+</svg>
