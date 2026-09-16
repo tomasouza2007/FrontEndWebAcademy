@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>SGCM - Profissionais</title>
-    <link rel="icon" href="atividade/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="imagens/logo_azul.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
@@ -32,10 +32,16 @@
             <li><a href="atendimento.html">Atendimento</a></li>
             <li><a href="pacientes.html">Pacientes</a></li>
             <li><a href="profissionais.html">Profissionais</a></li>
-            <li><a href="unidades.html">Unidades</a></li>
-            <li><a href="especialidades.html">Especialidades</a></li>
             <li><a href="convenios.html">Convênios</a></li>
-            <li><a href="usuarios.html">Usuários</a></li>
+            <li id="dropdown">
+                <a href="javascript:void(0)">Configurações <span>&#9660;</span></a>
+                <div id="dropdown_menu">
+            <a href="unidades.html">Unidades</a>
+            <a href="especialidades.html">Especialidades</a>
+            <a href="usuarios.html">Usuários</a>
+
+            </div>
+            </li>
         </ul>
     </nav>
     <main>
@@ -68,7 +74,7 @@
                         <option value="5">Unidade E</option>
                     </select>
 
-                    <label for="telefone" >Telefone</label>
+                    <label for="telefone">Telefone</label>
                     <input type="text" name="telefone" id="telefone" required>
 
                     <label for="email">E-mail</label>
@@ -140,7 +146,7 @@
                         <td>carla.valle@gmail.com</td>
                         <td>
                             <a class="botao" href="javascript:void(0)">Editar</a>
-                            <a class="botao" href="javascript:void(0)" >Excluir</a>
+                            <a class="botao excluir" href="javascript:void(0)">Excluir</a>
                         </td>
                     </tr>
                     <tr>
@@ -152,7 +158,7 @@
                         <td>(68) 98561-6622</td>
                         <td>neuza.nobrega@uol.com.br</td>
                         <td>
-                            <a  href="javascript:void(0)">Editar</a>
+                            <a class="botao" href=" javascript:void(0)">Editar</a>
                             <a class="botao excluir" href="javascript:void(0)">Excluir</a>
                         </td>
                     </tr>
