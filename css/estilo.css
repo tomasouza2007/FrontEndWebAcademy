@@ -218,3 +218,54 @@ input, select {
     padding: 0 0.5em;
     transition: border-color 0.5s, box-shadow 0.5s;
 }
+
+/* Tabela */
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 0.2em;
+    margin: 0.5em auto;
+
+}
+table th{
+    background-color: #2B5987;
+    color: white;
+    padding: 0.65em 0.75em;
+}
+
+table th:first-child, table tbody td:first-child{
+    border-radius: 6px 0 0 6px;
+}
+
+table th:last-child, table tbody td:last-child{
+    border-radius: 0  6px 6px 0; 
+}
+table td{
+    padding: 0.5em 0.75em;
+}
+
+table td:last-child, table td.fit{
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #e3e3e3;
+
+}
+table tbody tr:nth-child(even){
+    background-color: #f0f0f0;
+    
+}
+table tbody tr:hover{
+    background-color: #d5d5d5;
+}
+table tbody tr{
+    transition: background-color 0.5s;
+}
+
+table tfoot td{
+    border-top: 2px solid #2B5987;
+    padding-top: 0.75em;
+}
